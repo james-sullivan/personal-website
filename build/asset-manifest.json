@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d131fedd.css",
+    "main.js": "/static/js/main.e949da07.js",
+    "static/media/clocktower-screenshot.png": "/static/media/clocktower-screenshot.746a0927c4eeef9562f0.png",
+    "static/media/profile-picture.jpeg": "/static/media/profile-picture.ea8fb7fe0eb964248c6e.jpeg",
+    "index.html": "/index.html",
+    "main.d131fedd.css.map": "/static/css/main.d131fedd.css.map",
+    "main.e949da07.js.map": "/static/js/main.e949da07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d131fedd.css",
+    "static/js/main.e949da07.js"
+  ]
+}

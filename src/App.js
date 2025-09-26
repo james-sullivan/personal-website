@@ -6,14 +6,6 @@ import clocktowerScreenshot from './clocktower-screenshot.png';
 function App() {
   const researchProjects = [
     {
-      title: "Discovered a CBRN Jailbreak for Frontier Language Models",
-      url: "http://tiny.cc/2zvm001",
-      details: [
-        "Tested active jailbreak vulnerability affecting major AI models with Claude Sonnet 4 and Gemini 2.5 Pro models showing highest susceptibility while OpenAI's GPT and o-series models demonstrated strongest resistance to safety bypasses",
-        "Revealed significant variation in AI safety measures across providers, with vulnerable models producing detailed instructions for dangerous activities including explosives, biological weapons, and cyberattacks, leading to responsible disclosure and industry awareness"
-      ]
-    },
-    {
       title: "How do AI Agents Work Together When They Can't Trust Each Other?",
       url: "http://tiny.cc/1zvm001",
       details: [
@@ -21,6 +13,14 @@ function App() {
         "Identified and documented \"groupthink\" phenomenon where AI agents propagated hallucinated game rules across multiple players, demonstrating concerning vulnerability in multi-agent systems that could amplify misinformation"
       ],
       image: clocktowerScreenshot
+    },
+    {
+      title: "Discovered a CBRN Jailbreak for Frontier Language Models",
+      url: "http://tiny.cc/2zvm001",
+      details: [
+        "Tested active jailbreak vulnerability affecting major AI models with Claude Sonnet 4 and Gemini 2.5 Pro models showing highest susceptibility while OpenAI's GPT and o-series models demonstrated strongest resistance to safety bypasses",
+        "Revealed significant variation in AI safety measures across providers, with vulnerable models producing detailed instructions for dangerous activities including explosives, biological weapons, and cyberattacks, leading to responsible disclosure and industry awareness"
+      ]
     },
     {
       title: "Developmental Stages in Multi-Problem Grokking",
