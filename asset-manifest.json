@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.d131fedd.css",
-    "main.js": "/personal-website/static/js/main.771e6bfa.js",
-    "static/media/clocktower-screenshot.png": "/personal-website/static/media/clocktower-screenshot.746a0927c4eeef9562f0.png",
-    "static/media/profile-picture.jpeg": "/personal-website/static/media/profile-picture.ea8fb7fe0eb964248c6e.jpeg",
-    "index.html": "/personal-website/index.html",
-    "main.d131fedd.css.map": "/personal-website/static/css/main.d131fedd.css.map",
-    "main.771e6bfa.js.map": "/personal-website/static/js/main.771e6bfa.js.map"
+    "main.css": "/static/css/main.d131fedd.css",
+    "main.js": "/static/js/main.5fb2809e.js",
+    "static/media/clocktower-screenshot.png": "/static/media/clocktower-screenshot.746a0927c4eeef9562f0.png",
+    "static/media/profile-picture.jpeg": "/static/media/profile-picture.ea8fb7fe0eb964248c6e.jpeg",
+    "index.html": "/index.html",
+    "main.d131fedd.css.map": "/static/css/main.d131fedd.css.map",
+    "main.5fb2809e.js.map": "/static/js/main.5fb2809e.js.map"
   },
   "entrypoints": [
     "static/css/main.d131fedd.css",
-    "static/js/main.771e6bfa.js"
+    "static/js/main.5fb2809e.js"
   ]
 }
