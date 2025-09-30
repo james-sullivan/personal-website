@@ -46,7 +46,7 @@ function App() {
     },
     {
       title: "Anthropic | Machine Learning Engineer [Contract]",
-      period: "Part-Time | September - August 2025",
+      period: "Part-Time | August - September 2025",
       details: ["Built LLM pipelines to create datasets for evaluating and training models"]
     },
     {
