@@ -34,12 +34,7 @@ function App() {
 
   const workExperience = [
     {
-      title: "Anthropic | Machine Learning Engineer [Contract]",
-      period: "Part-Time | August 2025 – Present",
-      details: ["Built LLM pipelines to create datasets for evaluating and training models"]
-    },
-    {
-      title: "Oracle Cloud Infrastructure | Software Engineer",
+      title: "Oracle Cloud Infrastructure | Senior Software Engineer",
       period: "May 2023 – Present | Chicago, IL",
       details: [
         "Saved a customer $23 million in annual storage costs by developing and implementing a Python script to update object storage policies across multiple production environments, fulfilling critical contractual obligations.",
@@ -48,6 +43,11 @@ function App() {
         "Analyzed Kubernetes resource utilization issues across multiple services and presented best practices org-wide to improve resource utilization and service stability.",
         "Hardened the security of eight containers for two services by running containers as non-root users, disallowing privilege escalation, and mounting their filesystems as read only."
       ]
+    },
+    {
+      title: "Anthropic | Machine Learning Engineer [Contract]",
+      period: "Part-Time | September - August 2025",
+      details: ["Built LLM pipelines to create datasets for evaluating and training models"]
     },
     {
       title: "Supervised Program for Alignment Research | AI Safety Researcher",
