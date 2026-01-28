@@ -6,6 +6,15 @@ import clocktowerScreenshot from './clocktower-screenshot.png';
 function App() {
   const researchProjects = [
     {
+      title: "Playing Dumb: Detecting Sandbagging in LLMs via Consistency Checks",
+      url: "http://tiny.cc/vwlx001",
+      details: [
+        "Developed a black-box evaluation to detect LLM sandbagging by comparing performance on semantically identical questions framed as formal evaluations versus casual user queries.",
+        "Built a paired biosecurity dataset from WMDP and showed >50% accuracy drops under evaluative framing in sandbagging-conditioned frontier models, while baseline performance remained stable.",
+        "Released an open-source dataset and evaluation pipeline to support reproducible sandbagging detection and improve pre-deployment dangerous capability evaluations."
+      ]
+    },
+    {
       title: "How do AI Agents Work Together When They Can't Trust Each Other?",
       url: "http://tiny.cc/1zvm001",
       details: [
