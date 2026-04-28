@@ -2,9 +2,20 @@ import React from 'react';
 import './App.css';
 import profilePicture from './profile-picture.jpeg';
 import clocktowerScreenshot from './clocktower-screenshot.png';
+import alignmentFakingScreenshot from './alignment-faking-thought-anchors.jpeg';
 
 function App() {
   const researchProjects = [
+    {
+      title: "Alignment Faking Thought Anchors",
+      url: "https://open.substack.com/pub/jamessullivan092/p/what-sentences-cause-alignment-faking",
+      details: [
+        "Applied the Thought Anchors counterfactual resampling methodology to alignment faking reasoning in DeepSeek V3.1, identifying which specific sentences in the model's scratchpad causally drive strategic compliance with harmful requests to avoid RLHF modification.",
+        "Found that only a small number of specific sentences in the model's reasoning traces are causally responsible for alignment faking decisions, with RLHF self-preservation reasoning emerging as the strongest causal driver.",
+        "Built a counterfactual analysis pipeline with prefix continuation resampling via OpenRouter, dual compliance/AF classification, cosine-filtered importance scoring with Wilson CIs, sentence-to-sentence causal matrices, and an interactive results viewer."
+      ],
+      image: alignmentFakingScreenshot
+    },
     {
       title: "Playing Dumb: Detecting Sandbagging in LLMs via Consistency Checks",
       url: "http://tiny.cc/vwlx001",
@@ -15,13 +26,22 @@ function App() {
       ]
     },
     {
+      title: "Are We Aligning the Model or Just Its Mask?",
+      url: "https://jamessullivan092.substack.com/p/are-we-aligning-the-model-or-just",
+      details: [
+        "Examines three popular AI alignment techniques - RLHF, Constitutional AI, and Deliberative Alignment - through the framework of the Persona Selection Model (PSM).",
+        "Explores how each method shapes which persona an LLM adopts as its default Assistant, and whether persona-level alignment fully addresses underlying model behavior or merely masks deeper agency concerns."
+      ]
+    },
+    {
       title: "How do AI Agents Work Together When They Can't Trust Each Other?",
       url: "http://tiny.cc/1zvm001",
       details: [
         "Discovered limitations in AI cooperation where models failed to develop sophisticated team coordination strategies even when given complete trust and shared objectives, revealing critical gaps in current AI agent collaboration capabilities",
         "Identified and documented \"groupthink\" phenomenon where AI agents propagated hallucinated game rules across multiple players, demonstrating concerning vulnerability in multi-agent systems that could amplify misinformation"
       ],
-      image: clocktowerScreenshot
+      image: clocktowerScreenshot,
+      imageUrl: "https://james-sullivan.github.io/botc-visualizer/"
     },
     {
       title: "Discovered a CBRN Jailbreak for Frontier Language Models",
@@ -151,14 +171,14 @@ function App() {
                     </a>
                   </h3>
                   {project.image && (
-                    <a 
-                      href="https://james-sullivan.github.io/botc-visualizer/" 
-                      target="_blank" 
+                    <a
+                      href={project.imageUrl || project.url}
+                      target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img 
-                        src={project.image} 
-                        alt="Research screenshot" 
+                      <img
+                        src={project.image}
+                        alt="Research screenshot"
                         className="research-image"
                       />
                     </a>
