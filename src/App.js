@@ -7,7 +7,7 @@ import alignmentFakingScreenshot from './alignment-faking-thought-anchors.jpeg';
 function App() {
   const researchProjects = [
     {
-      title: "Alignment Faking Thought Anchors",
+      title: "What Reasoning Steps Cause Alignment Faking?",
       url: "https://open.substack.com/pub/jamessullivan092/p/what-sentences-cause-alignment-faking",
       details: [
         "Applied the Thought Anchors counterfactual resampling methodology to alignment faking reasoning in DeepSeek V3.1, identifying which specific sentences in the model's scratchpad causally drive strategic compliance with harmful requests to avoid RLHF modification.",
